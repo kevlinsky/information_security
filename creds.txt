@@ -1,0 +1,6 @@
+URL: http://judge.gltronred.info/cgi-bin/new-client?contest_id=4
+
+User: elin
+Pass: na2eer1W
+
+Cipher: Twofish
