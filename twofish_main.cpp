@@ -331,11 +331,20 @@ private:
     Twofish_UInt32 MDS_table[4][256];
 };
 
-int main(){
-    int n;
+char hex(Twofish_Byte x) {
+    if (x < 10)
+        return x+'0';
+    else
+        return x-10+'a';
+}
 
-    std::cout << "Type in the length of the key:" << std::endl;
-    std::cin >> n;
+int main(){
+    int length, n;
+
+    std::cout << "Type in the length of the key in bits:" << std::endl;
+    std::cin >> length;
+
+    n = length / 4;
 
     Twofish twofish;
 
@@ -345,27 +354,39 @@ int main(){
     std::cin >> key;
     twofish.PrepareKey(key, n, &xkey);
 
-    Twofish_Byte in[n];
-    std::cout << "Type in the str:" << std::endl;
-    std::cin >> in;
+    std::string method;
+    std::cout << "Type in the method (ex. 'Enc' or 'Dec'):" << std::endl;
+    std::cin >> method;
 
-    Twofish_Byte tmp[n];
-    twofish.Encrypt(&xkey, in, tmp);
+    if (method == "Enc"){
+        Twofish_Byte in[n];
+        std::cout << "Type in the string to encrypt:" << std::endl;
+        std::cin >> in;
 
-    std::cout << "Encrypted data:" << std::endl;
-    for (unsigned char i : tmp){
-        std::cout << (int)i << " ";
+        Twofish_Byte tmp[n];
+        twofish.Encrypt(&xkey, in, tmp);
+
+        std::cout << "Encrypted data:" << std::endl;
+        for (Twofish_Byte i : tmp){
+            printf("% hhX ", i);
+        }
+        std::cout << std::endl;
+    } else if (method == "Dec"){
+        Twofish_Byte in[n];
+        std::cout << "Type in the string to decrypt:" << std::endl;
+        std::cin >> in;
+
+        Twofish_Byte tmp[n];
+        twofish.Decrypt(&xkey, in, tmp);
+
+        std::cout << "Decrypted data:" << std::endl;
+        for (Twofish_Byte i : tmp){
+            printf("% hhX ", i);
+        }
+        std::cout << std::endl;
+    } else {
+        std::cout << "Unknown method" << std::endl;
     }
-    std::cout << std::endl;
-
-    Twofish_Byte out[n];
-    twofish.Decrypt(&xkey, out, tmp);
-
-    std::cout << "Decrypted data:" << std::endl;
-    for (unsigned char i : tmp){
-        std::cout << (int)i << " ";
-    }
-    std::cout << std::endl;
 
     return 0;
 }
