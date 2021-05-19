@@ -1,0 +1,87 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number:
+            e3:ea:bb:33:3f:33:ae:15:1f:40:1c:c4:ce:17:19:e8
+        Signature Algorithm: sha256WithRSAEncryption
+        Issuer: CN=server.elin.local
+        Validity
+            Not Before: May 19 09:28:17 2021 GMT
+            Not After : Aug 17 09:28:17 2021 GMT
+        Subject: CN=dingizbaev.ca
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                RSA Public-Key: (2048 bit)
+                Modulus:
+                    00:b4:14:b5:4c:8b:21:5b:2f:dc:36:b8:41:24:17:
+                    a1:7c:54:da:fc:cc:d8:b1:2d:9f:3b:ca:7a:01:05:
+                    9f:57:ba:a5:57:53:1a:b3:fa:cd:d6:a9:16:f1:76:
+                    2f:f2:10:a2:bd:98:64:7a:8c:3a:97:bc:c0:3a:2b:
+                    d9:70:c1:e8:2b:13:e7:38:07:31:55:7d:e8:6a:54:
+                    b3:72:6f:3c:e9:05:90:65:07:97:95:d9:1d:40:2b:
+                    83:4c:49:2d:1e:6a:f1:91:ff:78:c7:9a:95:7f:80:
+                    64:b8:97:e7:51:54:19:53:57:46:1e:b2:39:03:fc:
+                    91:03:74:90:2b:4a:ec:9d:39:d3:a6:17:11:3b:e1:
+                    1f:74:0f:fd:31:a5:55:15:87:9f:bb:77:8b:73:d8:
+                    68:25:d9:de:9e:8b:7a:5e:4c:53:42:ce:11:6f:a0:
+                    b9:7d:2c:87:33:0f:ee:9e:56:cd:9e:bc:99:b8:11:
+                    ee:ca:51:6d:02:51:0c:1f:ef:b4:8b:a5:a5:af:b5:
+                    fe:60:fb:fa:7c:b6:9f:33:ea:2d:54:eb:a6:5c:61:
+                    1b:65:8e:5e:5f:d4:40:f9:2f:70:4d:0f:21:00:69:
+                    9b:74:2f:67:ac:d9:12:01:e3:91:46:bc:3c:5e:9a:
+                    31:d5:e9:a8:2a:d9:18:9c:9a:a0:2c:4b:49:20:67:
+                    44:03
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            X509v3 Subject Key Identifier: 
+                58:9C:B8:FC:4E:A7:F3:6C:A7:86:FB:3E:92:C0:FA:9C:6B:67:52:54
+            X509v3 Authority Key Identifier: 
+                keyid:32:09:50:EB:1A:3D:60:6C:3C:6D:74:20:D2:5E:AC:71:94:AE:68:DD
+                DirName:/CN=server.elin.local
+                serial:22:7E:B3:EC:71:3C:CF:F2:D2:9A:E4:61:DD:19:09:FC:81:89:60:6B
+
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication
+            X509v3 Key Usage: 
+                Digital Signature, Key Encipherment
+            X509v3 Subject Alternative Name: 
+                DNS:dingizbaev.ca
+    Signature Algorithm: sha256WithRSAEncryption
+         a1:4d:2f:de:29:08:de:a7:c6:58:e8:73:64:1e:c3:0a:73:93:
+         dd:3a:50:8c:74:d9:54:5c:d9:65:71:a6:1c:f4:d6:b3:b6:9f:
+         37:b4:4e:fd:a9:04:3c:cd:14:ad:5a:c6:6a:d0:1f:d5:60:ae:
+         02:16:4d:e6:83:e8:75:53:81:03:15:de:03:f9:4f:42:e1:8c:
+         d5:f5:55:f2:23:e9:6f:b0:fa:81:e9:27:7f:b8:d5:bc:49:8a:
+         84:9e:56:e0:ef:2c:9d:b3:c7:f9:c4:31:e2:5c:20:7a:c8:3e:
+         40:31:8f:3f:ab:8b:67:b8:35:c4:e4:4d:53:0f:ee:6d:98:ea:
+         5d:a7:20:0f:fa:f9:64:1f:d7:82:5b:d2:85:8b:b8:9d:b7:1d:
+         5b:d5:3d:2c:c3:ae:91:28:ed:1b:d8:77:69:9e:e7:9d:9e:4e:
+         4c:80:ca:20:83:2a:b7:eb:ac:4a:9f:7a:10:dd:88:94:60:c8:
+         3a:4a:a2:2f:1d:97:b2:47:28:5b:9d:2b:0b:e1:ba:1b:2c:8b:
+         6f:4c:80:d0:56:3e:8e:0e:e3:87:7f:06:e7:1d:cb:7a:a0:10:
+         0b:4d:97:62:9b:83:07:d0:7c:96:d6:0a:1c:e0:90:31:fe:2e:
+         bb:55:30:3a:6e:0b:01:3b:e2:02:a6:56:cf:b1:fd:75:f1:f2:
+         ac:57:3c:35
+-----BEGIN CERTIFICATE-----
+MIIDgjCCAmqgAwIBAgIRAOPquzM/M64VH0AcxM4XGegwDQYJKoZIhvcNAQELBQAw
+HDEaMBgGA1UEAwwRc2VydmVyLmVsaW4ubG9jYWwwHhcNMjEwNTE5MDkyODE3WhcN
+MjEwODE3MDkyODE3WjAYMRYwFAYDVQQDDA1kaW5naXpiYWV2LmNhMIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAtBS1TIshWy/cNrhBJBehfFTa/MzYsS2f
+O8p6AQWfV7qlV1Mas/rN1qkW8XYv8hCivZhkeow6l7zAOivZcMHoKxPnOAcxVX3o
+alSzcm886QWQZQeXldkdQCuDTEktHmrxkf94x5qVf4BkuJfnUVQZU1dGHrI5A/yR
+A3SQK0rsnTnTphcRO+EfdA/9MaVVFYefu3eLc9hoJdnenot6XkxTQs4Rb6C5fSyH
+Mw/unlbNnryZuBHuylFtAlEMH++0i6Wlr7X+YPv6fLafM+otVOumXGEbZY5eX9RA
++S9wTQ8hAGmbdC9nrNkSAeORRrw8Xpox1emoKtkYnJqgLEtJIGdEAwIDAQABo4HC
+MIG/MAkGA1UdEwQCMAAwHQYDVR0OBBYEFFicuPxOp/Nsp4b7PpLA+pxrZ1JUMFcG
+A1UdIwRQME6AFDIJUOsaPWBsPG10INJerHGUrmjdoSCkHjAcMRowGAYDVQQDDBFz
+ZXJ2ZXIuZWxpbi5sb2NhbIIUIn6z7HE8z/LSmuRh3RkJ/IGJYGswEwYDVR0lBAww
+CgYIKwYBBQUHAwEwCwYDVR0PBAQDAgWgMBgGA1UdEQQRMA+CDWRpbmdpemJhZXYu
+Y2EwDQYJKoZIhvcNAQELBQADggEBAKFNL94pCN6nxljoc2Qewwpzk906UIx02VRc
+2WVxphz01rO2nze0Tv2pBDzNFK1axmrQH9VgrgIWTeaD6HVTgQMV3gP5T0LhjNX1
+VfIj6W+w+oHpJ3+41bxJioSeVuDvLJ2zx/nEMeJcIHrIPkAxjz+ri2e4NcTkTVMP
+7m2Y6l2nIA/6+WQf14Jb0oWLuJ23HVvVPSzDrpEo7RvYd2me552eTkyAyiCDKrfr
+rEqfehDdiJRgyDpKoi8dl7JHKFudKwvhuhssi29MgNBWPo4O44d/Bucdy3qgEAtN
+l2KbgwfQfJbWChzgkDH+LrtVMDpuCwE74gKmVs+x/XXx8qxXPDU=
+-----END CERTIFICATE-----
